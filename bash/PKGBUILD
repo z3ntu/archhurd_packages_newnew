@@ -4,8 +4,8 @@
 # Contributor: Aaron Griffin <aaron@archlinux.org>
 
 pkgname=bash
-_basever=4.4
-_patchlevel=012
+_basever=5.0.007
+_patchlevel=007
 pkgver=${_basever}.${_patchlevel}
 pkgrel=2
 pkgdesc='The GNU Bourne Again shell'
@@ -74,7 +74,7 @@ package() {
   install -m644 dot.bash_logout "$pkgdir"/etc/skel/.bash_logout
 }
 
-md5sums=('148888a7c95ac23705559b6f477dfe25'
+md5sums=('2b44b47b905be16f45709648f671820b'
          'SKIP'
          '027d6bd8f5f6a06b75bb7698cb478089'
          '2902e0fee7a9168f3a4fd2ccd60ff047'
